@@ -1,0 +1,34 @@
+# Portfólio Profissional — Rickelme Gouveia
+
+Site de página única para apresentar a trajetória, os estudos e os projetos digitais de Rickelme Gouveia para recrutadores de vagas de Jovem Aprendiz em tecnologia, desenvolvimento, administração, operações e automação.
+
+## Conteúdo atual
+
+O portfólio inclui uma apresentação baseada no currículo confirmado, uma seção de habilidades com distinção entre prática e estudos, o projeto DOMINÓ 2, a descrição do uso responsável de ferramentas de IA, a apresentação Canva **Dominó 2** (7 páginas), uma área reservada para os dois sites do CIEE e projetos futuros, além de contato por GitHub e e-mail. O LinkedIn fica como campo pendente até que seja fornecida a URL direta do perfil.
+
+A descrição do DOMINÓ 2 foi limitada ao que está disponível no repositório [CIEE-EDN/CIEE-Rickelme](https://github.com/CIEE-EDN/CIEE-Rickelme) e na demonstração publicada em [ciee-edn.github.io/CIEE-Rickelme](https://ciee-edn.github.io/CIEE-Rickelme/). As outras oito apresentações do Canva foram analisadas, mas não são publicadas sem aprovação.
+
+## Executar localmente
+
+O projeto é estático e não possui dependências externas de build. Em um terminal na raiz do projeto, execute:
+
+```bash
+python3 -m http.server 3000 --bind 0.0.0.0
+```
+
+Depois acesse `http://localhost:3000/`.
+
+## Estrutura
+
+- `index.html` — conteúdo semântico da página única.
+- `styles.css` — identidade visual, responsividade, acessibilidade e animações.
+- `script.js` — menu móvel e entradas suaves com suporte a `prefers-reduced-motion`.
+- `assets/curriculo-rickelme-publico.pdf` (após aprovação) — versão pública redigida do currículo, sem endereço e contatos de responsáveis.
+- `manus-routes.json` — declaração da rota pública `/`.
+- `TODO.md` — escopo, pendências e critérios de conclusão.
+
+## Publicação no GitHub Pages
+
+O destino solicitado é um repositório separado chamado `portfolio-rickelme`. Depois de conectar ou criar esse repositório com a autorização oficial do GitHub, publique a raiz do projeto por GitHub Pages usando a branch `main` e a pasta `/ (root)`. O site só deve ser apresentado como publicado quando a URL pública responder corretamente.
+
+Antes da publicação, revisar a aprovação da versão redigida do currículo. Não adicionar o endereço residencial ou contatos de responsáveis ao conteúdo visível do site.
