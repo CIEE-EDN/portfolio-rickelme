@@ -13,7 +13,10 @@
 - [x] Contato com GitHub e e-mail autorizado; LinkedIn mantido como pendente.
 - [ ] Currículo público somente em versão redigida, sem endereço residencial e contatos de responsáveis, após aprovação de Rickelme.
 - [x] Acessibilidade: semântica, foco visível, navegação por teclado, contraste adequado e `prefers-reduced-motion`.
+- [x] Três elementos originais em pixel art: personagem, terminal e ambiente, com animações leves e compatibilidade com redução de movimento.
+- [x] Seção de aprendizado e evolução com projetos concluídos, estudos, problemas tratados e próximos passos.
 - [x] SEO básico, metadados sociais, `manus-routes.json` e documentação de instalação/publicação.
+- [x] README profissional do perfil GitHub preparado no repositório público `CIEE-EDN/.github` em `profile/README.md`.
 
 ## Materiais não aprovados para publicação
 
