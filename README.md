@@ -29,6 +29,6 @@ Depois acesse `http://localhost:3000/`.
 
 ## Publicação no GitHub Pages
 
-O destino solicitado é um repositório separado chamado `portfolio-rickelme`. Depois de conectar ou criar esse repositório com a autorização oficial do GitHub, publique a raiz do projeto por GitHub Pages usando a branch `main` e a pasta `/ (root)`. O site só deve ser apresentado como publicado quando a URL pública responder corretamente.
+O destino solicitado é o repositório público `CIEE-EDN/portfolio-rickelme`. O workflow `.github/workflows/pages.yml` já está preparado para publicar a raiz do projeto pela branch `main`, mas a habilitação inicial do Pages exige permissão administrativa que não estava disponível para a integração usada nesta sessão. Para concluir no GitHub, abra **Settings → Pages**, selecione **GitHub Actions** como fonte e aguarde o workflow `Deploy portfolio to GitHub Pages`. A URL esperada é `https://ciee-edn.github.io/portfolio-rickelme/`; ela só deve ser divulgada como publicada depois de responder corretamente.
 
 Antes da publicação, revisar a aprovação da versão redigida do currículo. Não adicionar o endereço residencial ou contatos de responsáveis ao conteúdo visível do site.
